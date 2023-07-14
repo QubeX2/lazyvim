@@ -19,6 +19,6 @@ map("n", "ö", ":", {})
 map("v", "ö", ":", {})
 map("n", "ä", "$", {})
 map("v", "ä", "$", {})
-
+-- windows --
 -- misc
 map("n", "<leader>sx", require("telescope.builtin").resume, { noremap = true, silent = true, desc = "Resume" })
