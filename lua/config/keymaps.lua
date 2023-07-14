@@ -20,5 +20,8 @@ map("v", "ö", ":", {})
 map("n", "ä", "$", {})
 map("v", "ä", "$", {})
 -- windows --
+-- buffers --
+map("n", "<tab>", ":bn<cr>", opts)
+map("n", "<s-tab>", ":bp<cr>", opts)
 -- misc
 map("n", "<leader>sx", require("telescope.builtin").resume, { noremap = true, silent = true, desc = "Resume" })
