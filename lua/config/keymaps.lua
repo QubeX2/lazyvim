@@ -23,5 +23,10 @@ map("v", "ä", "$", {})
 -- buffers --
 map("n", "<tab>", ":bn<cr>", opts)
 map("n", "<s-tab>", ":bp<cr>", opts)
--- misc
+-- misc --
 map("n", "<leader>sx", require("telescope.builtin").resume, { noremap = true, silent = true, desc = "Resume" })
+-- dap --
+map("n", "<f5>", require("dap").continue, opts)
+map("n", "<f6>", require("dap").step_out, opts)
+map("n", "<f7>", require("dap").step_into, opts)
+map("n", "<f8>", require("dap").step_over, opts)
