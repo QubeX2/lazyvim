@@ -3,5 +3,3 @@
 -- Add any additional options here
 local opt = vim.opt
 opt.winbar = "%=%m %f"
--- opt.shiftwidth = 4
--- opt.tabstop = 4
