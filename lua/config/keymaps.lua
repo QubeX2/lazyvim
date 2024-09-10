@@ -14,11 +14,12 @@ map("i", "<down>", "<nop>", opts)
 map("i", "<left>", "<nop>", opts)
 map("i", "<right>", "<nop>", opts)
 -- insert --
-map("i", "jk", "<esc>", opts)
 map("n", "ö", ":", {})
 map("v", "ö", ":", {})
 map("n", "ä", "$", {})
 map("v", "ä", "$", {})
+map("n", "å", "^", {})
+map("v", "å", "^", {})
 -- windows --
 -- buffers --
 -- map("n", "<tab>", ":bn<cr>", opts)
